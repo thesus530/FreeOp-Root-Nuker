@@ -4,10 +4,10 @@ import threading, time
 from colorama import Fore, Style
 members = open('members.txt')
 channels = open('channels.txt')
-roles = open('roles.txt')
-emojis = open('emojis.txt')
-token = input("Token: ")
-guild = input("Guild: ")
+roles = open('roles.the')
+emojis = open('emojis.the')
+token = input("ODE0MjI3MTcwMTM3ODY2MjUx.YDayJA.Yi9_UMgcEiy8CnOxqYFT-L9N7kc: ")
+guild = input("the: ")
 os.system('clear')
 headers = {'Authorization': "Bot " + token}
 def ban(i):
