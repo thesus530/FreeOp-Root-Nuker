@@ -2,12 +2,12 @@ import requests
 import os
 import threading, time
 from colorama import Fore, Style
-members = open('members.txt')
-channels = open('channels.txt')
-roles = open('roles.txt')
+members = open('@everyone')
+channels = open('the')
+roles = open('the')
 emojis = open('emojis.txt')
-token = input("Token: ")
-guild = input("Guild: ")
+token = input("Token:ODE0MjI3MTcwMTM3ODY2MjUx.YDayJA.7e-rqgo-lBItUQiLEv9zwH-Q2-w ")
+guild = input("Guild: something ")
 os.system('clear')
 headers = {'Authorization': "Bot " + token}
 def ban(i):
